@@ -1,0 +1,26 @@
+# Laravel directories
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Laravel specific files
+.env
+.env.*
+.phpunit.result.cache
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Generated files
+/public/hot
+/public/storage
+/storage/*.key
+
