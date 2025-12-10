@@ -36,13 +36,14 @@ class ProyectoDetalle extends Component
                 'aprendizaje' => 'Me permitió entender cómo funcionan los componentes en Livewire, relaciones en bases de datos y validaciones dinámicas.',
             ],
             [
-                'titulo' => 'JobFlow – Gestor de candidaturas',
+                'titulo' => 'JobFlow · Gestor de candidaturas',
                 'slug' => 'jobflow',
-                'descripcion' => 'Aplicación web para gestionar mis candidaturas laborales: permite añadir, editar, filtrar por estado y buscar por empresa o puesto.',
+                'descripcion' => 'Aplicación web para organizar y seguir ofertas laborales con filtros, edición, borrado y persistencia en localStorage.',
                 'tecnologias' => ['HTML', 'TailwindCSS', 'JavaScript'],
                 'imagen' => 'jobflow_final.png',
                 'github' => 'https://github.com/Paugarperezdt/jobflow',
-                'aprendizaje' => 'Me ayudó a practicar JavaScript vanilla, manejo del DOM, filtrado de datos, edición y borrado de registros, y persistencia en localStorage, además de diseñar una interfaz limpia con TailwindCSS.',
+                'demo' => 'https://paugarperezdt.github.io/jobflow',
+                'aprendizaje' => 'Este proyecto me permitió profundizar en DOM, eventos, UX y almacenamiento local en navegadores.',
             ],
             [
                 'titulo' => 'GymBro App',
@@ -51,6 +52,7 @@ class ProyectoDetalle extends Component
                 'tecnologias' => ['Flutter', 'Django', 'PostgreSQL'],
                 'imagen' => 'gymbro_final.png',
                 'github' => 'https://github.com/KevCora/gymbro',
+                'demo' => 'https://docs.google.com/videos/d/1A5LnMPk_6s29Smy4Cf9ngsvXM0nFVleI_P7GCPiPDkQ/edit?usp=sharing',
                 'aprendizaje' => 'Aprendí a comunicar Flutter con una API REST, manejar JWT y organizar un proyecto completo cliente-servidor.',
             ],
         ];
