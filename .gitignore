@@ -6,7 +6,10 @@ yarn-error.log
 
 # Laravel specific files
 .env
-.env.*
+.env.local
+.env.production
+!.env.example
+
 .phpunit.result.cache
 
 # IDE files
